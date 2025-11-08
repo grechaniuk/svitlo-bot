@@ -22,7 +22,7 @@ BOT_TOKEN = os.getenv("8572726100:AAEzKy10Lx-7fpt1ZuxtjsW9xYay7lIko0I")
 DEFAULT_LANG = os.getenv("DEFAULT_LANG", "en")
 DEFAULT_COUNTRY = os.getenv("DEFAULT_COUNTRY", "US").upper()
 ADMINS = [int(x) for x in os.getenv("ADMINS", "").split(",") if x.strip().isdigit()]
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
+OPENAI_API_KEY = os.getenv("8572726100:AAEzKy10Lx-7fpt1ZuxtjsW9xYay7lIko0I", "").strip()
 
 # === i18n ===
 def load_i18n(lang: str) -> Dict[str, str]:
